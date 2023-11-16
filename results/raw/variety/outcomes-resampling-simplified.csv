@@ -1,0 +1,4 @@
+;all same;at least 4 same rank;at least 3 same ranks;at least 2 same rank;all different
+MLP-FLS;17;27;51;125;105
+CNN-FLS;0;0;0;5;225
+RNN-FLS;4;9;34;93;137
