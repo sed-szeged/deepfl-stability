@@ -1,5 +1,16 @@
 # Supplemental Material for "On the Stability and Applicability of Deep Learning in Fault Localization"
 
+This repository contains open science data which ensures full reproducibility of the research. The paper was submitted at the [31th International Conference on Software Analysis, Evolution and Reengineering (SANER)](https://conf.researchr.org/home/saner-2024). If you use the data or models for academic purposes, please cite the appropriate publication:
+```
+@inproceedings{csuvik:deepfl,
+ title = {On the Stability and Applicability of Deep Learning in Fault Localization},
+ author = {Csuvik, Viktor and Roland, Aszmann and Árpád, Beszédes and Ferenc, Horváth and Tibor, Gyimóthy},
+ booktitle={2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)}, 
+ year = {2024},
+ doi = {},
+}
+```
+
 ## Source code
 
 The [code](code) directory contains the source code for calculating the ranks for statements, it is code from https://github.com/ICSE2022FL/ICSE2022FLCode with adding:
@@ -42,3 +53,5 @@ The [results](results) directory contains detailed results of our experiments.
   - [top](results/raw/top) contains the *Top-N* values, related to Section V.A and VI.(Table IV, VII),
   - [variety](results/raw/variety) contains the variety of same expense appearing results for Section V.A and VI.(Table III., V.),
   - The [baseline](results/raw/origin_baseline.csv), [simplified](results/raw/origin_simplified.csv), [resampling](results/raw/resampling_basic.csv), [resampling-simplified](results/raw/resampling_simplified.csv) files contains the raw expense results of each run.
+ 
+[![DOI](https://zenodo.org/badge/719515916.svg)](https://zenodo.org/doi/10.5281/zenodo.10496188)
