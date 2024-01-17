@@ -44,14 +44,14 @@ Example:
 
 The [results](results) directory contains detailed results of our experiments.
 - In [figures](results/figures) directory:
-  - [boxplots](results/figures/boxplots) contains the detailed box plots for every project mentioned in Section V.A, and for all improvements in section VI. as well,
-  - [churn-histograms](results/figures/churn-histograms) contains histograms for every examined churn setting, related to Section V.B and VI. (Figure 4. and 5.).
+  - [boxplots](results/figures/boxplots) contains the detailed box plots for every project mentioned in Section VI.A, and for all improvements in section VII. as well,
+  - [churn-histograms](results/figures/churn-histograms) contains histograms for every examined churn setting, related to Section VI.B and VII. (Figure 4. and 5.).
 - In [raw](results/raw) are the raw results, in csv format, in various subdirectories:
   - [churn](results/raw/churn) contains all examined variation of churn, for every model and version in table format,
-  - [means](results/raw/means) contains the mean values of DLFL, related to Section V.A and VI.(Table II., VI.),
-  - [statistics](results/raw/statistics) contains the significance testing statistics comparing minimal with maximal expense values, mentioned at Section V.A and VI.,
-  - [top](results/raw/top) contains the *Top-N* values, related to Section V.A and VI.(Table IV, VII),
-  - [variety](results/raw/variety) contains the variety of same expense appearing results for Section V.A and VI.(Table III., V.),
+  - [means](results/raw/means) contains the mean values of DLFL, related to Section VI.A and VII.(Table III., VI.),
+  - [statistics](results/raw/statistics) contains the significance testing statistics comparing minimal with maximal expense values, mentioned at Section VI.A and VII.,
+  - [top](results/raw/top) contains the *Top-N* values, related to Section VI.A and VII.(Table IV, VII),
+  - [variety](results/raw/variety) contains the variety of same expense appearing results for Section VI.A and VII.(Table II., V.),
   - The [baseline](results/raw/origin_baseline.csv), [simplified](results/raw/origin_simplified.csv), [resampling](results/raw/resampling_basic.csv), [resampling-simplified](results/raw/resampling_simplified.csv) files contains the raw expense results of each run.
  
 [![DOI](https://zenodo.org/badge/719515916.svg)](https://zenodo.org/doi/10.5281/zenodo.10496188)
